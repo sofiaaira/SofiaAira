@@ -5,7 +5,19 @@ h1{font-family: courier;}
 h1{text-align: center;}
 
 h2{color: #21bc05;}
-
-
-
-
+#ModeloDeCaja{
+  width: 200px;
+  border: 8px double green;
+  padding: 10px;
+  margin: 10px;
+}
+   
+    
+#FotoEscuelita {width: 50%; height: 10%; position: relative; left: 100px;}
+#Club {width: 50%; height: 10%; position: relative; left: 100px;}
+#Evento {width: 50%; height: 10%; position: relative; left: 100px;}
+#IconWhatsapp {position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  border: 0px;}
