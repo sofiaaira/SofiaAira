@@ -1,5 +1,18 @@
 BODY{background-color: #f1fd5f;}
 
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px ;
+  background-color: green;
+}
+menu{
+  list-style-type: none;
+}
+menu > a > li{
+  display: inline;
+}
+
 h1{color: #21bc05;}
 h1{font-family: courier;}
 h1{text-align: center;}
@@ -11,8 +24,6 @@ h2{color: #21bc05;}
   padding: 10px;
   margin: 10px;
 }
-   
-    
 #FotoEscuelita {width: 50%; height: 10%; position: relative; left: 100px;}
 #Club {width: 50%; height: 10%; position: relative; left: 100px;}
 #Evento {width: 50%; height: 10%; position: relative; left: 100px;}
@@ -21,3 +32,6 @@ h2{color: #21bc05;}
   right: 10px;
   width: 30px;
   border: 0px;}
+
+#col-izq{width: 50%; float: left;}
+#col-der{width: 50%; float: right;}
