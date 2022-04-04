@@ -12,21 +12,27 @@ menu{
 menu > a > li{
   display: inline;
 }
+#logo-header{
+  width: 5%;
+}
 
-h1{color: #21bc05;}
-h1{font-family: courier;}
-h1{text-align: center;}
+h1{color: #21bc05;
+font-family: courier;
+text-align: center;}
 
-h2{color: #21bc05;}
+h2{color: #21bc05;
+font-family: courier;}
+
+
 #ModeloDeCaja{
   width: 200px;
   border: 8px double green;
   padding: 10px;
   margin: 10px;
 }
-#FotoEscuelita {width: 50%; height: 10%; position: relative; left: 100px;}
-#Club {width: 50%; height: 10%; position: relative; left: 100px;}
-#Evento {width: 50%; height: 10%; position: relative; left: 100px;}
+#FotoEscuelita {width: 40%; height: 20%; position: relative; left: 100px;}
+#Club {width: 40%; height: 20%; position: relative; left: 100px;}
+#Evento {width: 40%; height: 20%; position: relative; left: 100px;}
 #IconWhatsapp {position: fixed;
   bottom: 10px;
   right: 10px;
@@ -35,3 +41,12 @@ h2{color: #21bc05;}
 
 #col-izq{width: 50%; float: left;}
 #col-der{width: 50%; float: right;}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+}
+
+.col{border: 3px solid royalblue;}
+.btnbtn-primary{ background-color: #21bc05; border: #21bc05;}
+#menu{display:none ;}
