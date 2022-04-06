@@ -1,4 +1,4 @@
-BODY{background-color: #f1fd5f;}
+BODY{background-color: white;}
 
 header {
   position: sticky;
@@ -30,9 +30,13 @@ font-family: courier;}
   padding: 10px;
   margin: 10px;
 }
-#FotoEscuelita {width: 40%; height: 20%; position: relative; left: 100px;}
-#Club {width: 40%; height: 20%; position: relative; left: 100px;}
-#Evento {width: 40%; height: 20%; position: relative; left: 100px;}
+
+
+.imagenes{height: 300px; width: 410px;}
+
+
+
+
 #IconWhatsapp {position: fixed;
   bottom: 10px;
   right: 10px;
@@ -47,6 +51,6 @@ footer{
   bottom: 0px;
 }
 
-.col{border: 3px solid royalblue;}
+.col{border: 3px solid white;}
 .btnbtn-primary{ background-color: #21bc05; border: #21bc05;}
 #menu{display:none ;}
