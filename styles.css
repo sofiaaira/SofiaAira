@@ -1,4 +1,4 @@
-BODY{background-color: white;}
+BODY{background-color: white}
 
 header {
   position: sticky;
@@ -17,22 +17,24 @@ menu > a > li{
 }
 
 h1{color: #21bc05;
-font-family: courier;
-text-align: center;}
+font-family: "Times New Roman", Times, serif ;
+text-align: center;
+line-height: 70px;}
 
 h2{color: #21bc05;
+  text-align: center;
 font-family: courier;}
 
 
 #ModeloDeCaja{
-  width: 200px;
-  border: 8px double green;
-  padding: 10px;
-  margin: 10px;
+  width: 350px;
+  border: 4px double green;
+  padding: 5px;
+  margin: 5px;
 }
 
 
-.imagenes{height: 300px; width: 410px;}
+.imagenes{height: 300px; width: 410px}
 
 
 
