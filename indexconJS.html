@@ -9,13 +9,49 @@
   <meta charset="UTF-8">
 
 </head>
-
 <body>
-<script>
+<!-- Comentario en HTML-->
+<script> // Comentario en JavaScript
+let edad;
+edad = prompt("ingrese su edad :")
+if(edad >= 18){
+  document.write("Puede pasar")
+}else{
+  document.write("No puede pasar")
+}
+
+document.write("<br>")
+let cateto1
+let cateto2
+cateto1 = prompt("Ingrese cateto 1: ")
+cateto2 = prompt("Ingrese cateto 2: ")
+let hipotenusa
+hipotenusa = Math.sqrt((cateto1*cateto1)+(cateto2*cateto2))
+document.write("La hipotenusa es de: " + hipotenusa)
+
+document.write("<br>")
+let decision = prompt(" Mueve la palanca?")
+console.log(decision)
+if(decision == "si"){
+  document.write("Mata 1 persona");
+}else if(decision == "no"){
+  document.write("Mata 5 personas");
+}else{
+  document.write("Ingrese si o no");
+}
+
+document.write("<br>")
+let apellido = "Esteban"
+let cantidad = 29
+let siguiente = 1
 
   document.write('La web de Steve');
+  console.log(apellido)
+  document.write(cantidad)
+  console.log(typeof(apellido))
+  console.log(typeof(cantidad))
+  console.log(edad-siguiente)
 
-  console.log("No deberias leer esto")
 
 </script>
 </body>
