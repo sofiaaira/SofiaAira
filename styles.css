@@ -1,53 +1,78 @@
-BODY{background-color: white}
 
-header {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0px ;
-  background-color: green;
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
 }
 
-
-menu{
-  list-style-type: none;
-}
-menu > a > li{
-  display: inline;
-}
-#logo-header{
-  width: 5%;
-}
-
-h1{color: #21bc05;
-font-family: sans-serif ;
-text-align: center;
-line-height: 70px;}
-
-h2{color: #21bc05;
+.topnav a {
+  float: right;
+  color: black;
   text-align: center;
-  font-family: sans-serif;}
-
-
-
-.imagenes{height: 300px; width: 410px}
-
-.navbar-brand{padding: 15px; font-family: sans-serif }
-
-
-#IconWhatsapp {position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 30px;
-  border: 0px;}
-
-#col-izq{width: 50%; float: left;}
-#col-der{width: 50%; float: right;}
-
-footer{
-  position: fixed;
-  bottom: 0px;
+  padding: 20px 70px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
 
-.col{border: 3px solid white;}
-.btnbtn-primary{ background-color: #21bc05; border: #21bc05;}
-#menu{display:none ;}
+topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #379037;
+  color: white;
+}
+
+.topnav a.title {
+  float: left;
+  color: #379037;
+  text-align: center;
+  padding: 20px 70px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+  
+
+.Club {height: 550px; width: 1450px}
+
+.container {
+  position: relative;
+  max-width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #379037;;
+}
+
+.container:hover .overlay {
+  opacity: 3;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
