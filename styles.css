@@ -76,3 +76,8 @@ topnav a:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.imagenes2{float: right; height: 300px; width: 400px}
+.imagenes3{float: center; height: 300px; width: 400px}
+.imagenes4{float: left; height: 300px; width: 400px}
+.col{border: 3px solid white;}
