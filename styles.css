@@ -1,13 +1,13 @@
 
 
 .topnav {
-  background-color: white;
+  background-color: black;
   overflow: hidden;
 }
 
 .topnav a {
   float: right;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px 70px;
   text-decoration: none;
@@ -16,7 +16,7 @@
 }
 
 topnav a:hover {
-  background-color: #ddd;
+  background-color:white;
   color: black;
 }
 
@@ -41,43 +41,68 @@ topnav a:hover {
 
 .container {
   position: relative;
-  max-width: 100%;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #379037;;
-}
 
-.container:hover .overlay {
-  opacity: 3;
-}
 
-.text {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
 
-.imagenes2{float: right; height: 300px; width: 400px}
-.imagenes3{float: center; height: 300px; width: 400px}
-.imagenes4{float: left; height: 300px; width: 400px}
 .col{border: 3px solid white;}
+
+.tituloInicio{font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;}
+
+.textoInicio{font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;}
+
+.column {float: left;
+  width: 22%;
+  padding: 3px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {content: "";
+  clear: both;
+  display: table;
+}
+
+
+div.row{width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+  
+div.column{text-align: center;
+  padding: 10px 16.5px;
+}
+
+.Servicio{font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;}
+
+.descripcionServicios{font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;background-color: #379037;
+  color: white;padding: 3px; margin: 2%;}
+
+.Ubicacion{font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;}
+
+div.row2{width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+div.column2{text-align:left;
+  padding: 10px 16.5px;
