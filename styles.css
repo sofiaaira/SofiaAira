@@ -1,5 +1,4 @@
 
-
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -101,14 +100,9 @@ div.column{text-align: center;
 .inscription{font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;}
 
-.div.row2{width: 100%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 50px;
-}
+#textInscripcion{font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; float:left; padding-left:6px; padding: 0px;}
 
-.div.column2{text-align:left;
-  padding: 10px 16.5px;
+#frm1{font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; float:left; padding-left:6px; padding-top: 6px;}
 
-.textInscripcion{font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;}
