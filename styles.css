@@ -101,11 +101,14 @@ div.column{text-align: center;
 .inscription{font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;}
 
-div.row2{width: 100%;
+.div.row2{width: 100%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
 
-div.column2{text-align:left;
+.div.column2{text-align:left;
   padding: 10px 16.5px;
+
+.textInscripcion{font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;}
