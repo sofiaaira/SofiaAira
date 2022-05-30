@@ -33,7 +33,7 @@
 
 <body>
 
-  <div id="service" class="Servicio"> <p> <strong> Servicios </strong> </p> </div>
+<div id="service" class="Servicio"> <p> <strong> Servicios </strong> </p> </div>
   <div class="row">
     <div class="column">
       <img src="j.jpg" alt="Cancha" style="width:100%">
@@ -56,12 +56,33 @@
       <a class="textofotos"> Veni a disfrutar de un rica comida en nuestro salon o terrazas. De martes a viernes menu ejecutivo y tambien podes realizar tu reserva. </a>
     </div>
   </div>
+</div>
 
-  <div id="ins" class="inscription"> <p> <strong> Inscripcion </strong> </p> </div>
+<div id="ins" class="inscription"> <p> <strong> Inscripcion </strong> </p> </div>
   <div class="row">
-    <div class="column">
+    <div class="column"></div>
+    
+     <p class="textInscripcion" > Si quiere inscribirse al Ituzaingo Golf Club, completa el siguiente formulario y nos contactaremos con usted! </p>
+
+      <form id="frm1" action="/action_page.php">
+        Nombre: <input type="text" name="fname"><br><br>
+        Apellido: <input type="text" name="lname"><br><br>
+        Edad: <input type="text" name="lname"><br><br>
+        Celular: <input type="text" name="lname"><br><br>
+        E-mail: <input type="text" name="lname"><br><br>
+        <input type="button" onclick="myFunction()" value="Submit">
+      </form>
+    </div>
+  </div>
+      
       
 </body>
+      
+<script>
+  function myFunction() {
+    document.getElementById("frm1").submit();
+  }
+</script>
 
 <script src="main.js"> </script>
 
