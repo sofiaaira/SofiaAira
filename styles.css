@@ -44,10 +44,14 @@ topnav a:hover {
   font-size: 25px;}
 
 
+.subtitulos{padding: 10px;}
+
+.descripcionServicio{ text-align: left;}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 25%;
+  width: 24%;
   padding: 3px;
 }
 
@@ -60,15 +64,22 @@ topnav a:hover {
 }
 
 
+* {
+  box-sizing: border-box;
+}
 
+.card {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
 
-
-
-
-
-
-
-
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
   * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}

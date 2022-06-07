@@ -15,8 +15,8 @@
     <a class="title" href="#titulo"> Ituzaingo Golf Club </a>
     <a class="active" href="#home"> Inicio </a>
     <a href="#contact"> Contacto </a>
-    <a href="#ins"> Inscripcion </a>
-    <a href="#service"> Servicio </a>
+    <a href="#TituloInscrip"> Inscripcion </a>
+    <a href="#TituloServ"> Servicio </a>
   </div>
 
   <div class="slideshow-container">
@@ -53,43 +53,66 @@
 
 <body>
 
-  <h2> Servicios </h2>
+  <h2 id="TituloServ" class="subtitulos"> Servicios </h2>
 
 
+  <div class="row">
+    <div class="card">
+      <img src="j.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+      <h4><b> Cancha de golf</b></h4>
+      <p class="descripcionServicio"> Su trazado es netamente corte inglés, con fairways generosos y greens chicos, zonas de rough, una diversa y gran arboleda y una fauna silvestre entre las que se destacan las garzas y múltiple variedad de pájaros.</p>
+      </div>
+    </div>
 
+    <div class="card">
+      <img src="2.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+      <h4><b> Salon de eventos </b></h4>
+      <p class="descripcionServicio"> Es un elegante club que les ofrece espacios perfectos. Se destaca por la belleza de sus ambientes y por ser perfecto para todo tipo de celebraciones como bautismos, fiestas de 15, casamientos y mucho mas! </p>
+      </div>
+    </div>
 
-  <div class="card">
-     <img src="j.jpg" alt="Avatar" style="width:100%">
-     <div class="container">
-      <h4><b> Cancha de golf</b></h4> 
-      <p> Su trazado es netamente corte inglés, con fairways generosos y greens chicos, zonas de rough, una diversa y gran arboleda y una fauna silvestre entre las que se destacan las garzas y múltiple variedad de pájaros.</p> 
-     </div>
-  </div>
+    <div class="card">
+      <img src="4.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+      <h4><b> Escuelita de menores </b></h4>
+      <p class="descripcionServicio"> Para los niños y niñas ofrecemos la escuelita de golf los dias sabado. De 3 a 8 años los horarios son de 13:30 a 14:30 y de 8 a 15 años el horario es de 15:00 a 16:00. Un plan distinto al are libre! </p>
+      </div>
+    </div>
 
-  <div class="card">
-    <img src="2.jpg" alt="Avatar" style="width:100%">
-    <div class="container">
-     <h4><b> Salon de eventos </b></h4> 
-     <p> Es un elegante club que les ofrece espacios perfectos. Se destaca por la belleza de sus ambientes y por ser perfecto para todo tipo de celebraciones. </p> 
+    <div class="card">
+      <img src="3.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+      <h4><b> Restaurante </b></h4>
+      <p class="descripcionServicio"> Veni a disfrutar de una rica comida como pastas, carnes, minutas y postres en nuestro salon o terrazas. De martes a viernes ofrecemos el menu ejecutivo a $950. Realizar tu reserva!  </p>
+      </div>
     </div>
   </div>
+
+  <h2 id="TituloInscrip"class="subtitulos"> Inscripcion </h2>
+
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
   
 
-  <div class="card">
-    <img src="4.jpg" alt="Avatar" style="width:100%">
-    <div class="container">
-      <h4><b> Escuelita de menores </b></h4> 
-      <p> Para los niños y niñas de 3 a 15 años ofrecemos la escuelita de golf los dias sabado. Un plan distinto! </p> 
-    </div>
-  </div>
+  
 
-  <div class="card">
-    <img src="3.jpg" alt="Avatar" style="width:100%">
-    <div class="container">
-      <h4><b> Restaurante </b></h4> 
-      <p> Veni a disfrutar de un rica comida en nuestro salon o terrazas. De martes a viernes menu ejecutivo y tambien podes realizar tu reserva.  </p> 
-    </div>
-  </div>
 
 
 
@@ -98,45 +121,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<h1 id="ins" class="inscription"> <strong> Inscripcion </strong> </h1> </div>
-  <p id="textInscripcion" > Si quiere inscribirse al Ituzaingo Golf Club, completa el siguiente formulario y nos contactaremos con usted! </p>
-
-  <br>
-  <br>
-  <br>
-
-  <div class="row">
-    <form id="frm1" action="/action_page.php">
-      Nombre: <input type="text" name="fname"><br><br>
-      Apellido: <input type="text" name="lname"><br><br>
-      Edad: <input type="text" name="lname"><br><br>
-      Celular: <input type="text" name="lname"><br><br>
-      E-mail: <input type="text" name="lname"><br><br>
-      <input type="button" onclick="myFunction()" value="Submit">
-    </form>
-  </div>
-
       
       
 </body>
       
 <script>
-  function myFunction() {
-    document.getElementById("frm1").submit();
-  }
-
-  let slideIndex = 1;
+  
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
