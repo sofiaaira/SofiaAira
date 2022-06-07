@@ -33,22 +33,15 @@ topnav a:hover {
   font-family: Gill Sans, sans-serif;
   font-size: 25px;
 }
-
   
 
 .Club {height: 550px; width: 1450px}
-
-
-.col{border: 3px solid white;}
 
 .tituloInicio{font-family:Gill Sans, sans-serif;
   font-size: 25px;}
 
 .textoInicio{font-family: Gill Sans, sans-serif;
   font-size: 25px;}
-
-
-  
 
 
 .card {
@@ -73,43 +66,6 @@ topnav a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.inscription{font-family:Gill Sans, sans-serif;
-    font-size: 25px;}
-
-#textInscripcion{font-family:Gill Sans, sans-serif;
-  font-size: 15px; float:left; padding-left:6px; padding: 0px;}
-
-#frm1{font-family:Gill Sans, sans-serif;
-  font-size: 15px; float:left; padding-left:6px; padding-top: 6px;}
 
 
 
