@@ -91,42 +91,36 @@
   </div>
 
   <h2 id="TituloInscrip"class="subtitulos"> Inscripcion </h2>
+  <div class="form">
+    <form action="/action_page.php">
+      <label for="fname"> Nombre y apellido </label>
+      <input type="text" id="fname" name="firstname">
+  
+      <label for="lname"> E-mail </label>
+      <input type="text" id="lname" name="lastname">
+
+
+      <textarea id="subject" name="subject" placeholder="Hace tu consulta!" style="height:200px"></textarea>
+  
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
 
   
   </div>
-
-
-
-
-
-
-
-
-
-
-  
- 
-
-
-
-  
-
-  
-
-
-
-
- 
-
-
-
-
-      
-      
 </body>
+
+
+
+<footer> 
+
+<p> hola como estas </p>
+
+
+</footer>
       
-<script>
-  
+
+<script> 
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -153,10 +147,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-
-
-
-
 </script>
 
 
