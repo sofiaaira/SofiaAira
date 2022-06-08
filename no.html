@@ -53,7 +53,9 @@
 
 <body>
 
-<h2 id="TituloServ" class="subtitulos"> Servicios </h2>
+  <h2 id="TituloServ" class="subtitulos"> Servicios </h2>
+
+
   <div class="row">
     <div class="card">
       <img src="j.jpg" alt="Avatar" style="width:100%">
@@ -86,15 +88,26 @@
       <p class="descripcionServicio"> Veni a disfrutar de una rica comida como pastas, carnes, minutas y postres en nuestro salon o terrazas. De martes a viernes ofrecemos el menu ejecutivo a $950. Realizar tu reserva!  </p>
       </div>
     </div>
-
-    <h3> Hola 4 estas </h3>
-  
   </div>
 
-   
+  <h2 id="TituloInscrip"class="subtitulos"> Inscripcion </h2>
+  <div class="form">
+    <form action="/action_page.php">
+      <label for="fname"> Nombre y apellido </label>
+      <input type="text" id="fname" name="firstname">
+  
+      <label for="lname"> E-mail </label>
+      <input type="text" id="lname" name="lastname">
 
 
+      <textarea id="subject" name="subject" placeholder="Hace tu consulta!" style="height:200px"></textarea>
+  
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
 
+  
+  </div>
 </body>
 
 
@@ -108,7 +121,6 @@
       
 
 <script> 
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -119,7 +131,6 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 
 function showSlides(n) {
   let i;
@@ -135,9 +146,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  }
-
-
+}
 </script>
 
 

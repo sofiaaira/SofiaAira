@@ -147,7 +147,7 @@ img {vertical-align: middle;}
 
 .descripcionServicio{ text-align: left;}
 
-.subtitulos{padding: 20px; text-align: center;}
+.subtitulos{padding: 20px; text-align: center; font-size: 30px; font-family: Gill Sans, sans-serif;}
 
 .contacto{font-family: Gill Sans, sans-serif;
   font-size: 25px; text-align: center; padding: 3px; }
