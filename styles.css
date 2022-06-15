@@ -62,7 +62,9 @@
 }
 
   * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; 
+  margin:0}
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -135,17 +137,23 @@ img {vertical-align: middle;}
 
 .descripcionServicio{ text-align: left;}
 
-.subtitulos{padding: 20px; text-align: center; font-size: 30px; font-family: Gill Sans, sans-serif;}
-
-.contacto{font-family: Gill Sans, sans-serif;
-  font-size: 25px; text-align: center; padding: 0px; }
-
+.subtitulos{padding: 20px;
+  text-align: center;
+  font-size: 30px; 
+  font-family: Gill Sans, sans-serif;}
 
 h4{text-align: center ;}
 
+.Inscripcion{text-align: center; 
+  font-family: Gill Sans, sans-serif;
+  font-size: 25px;
+  margin: 3px; 
+  padding: 2px 2px;
+}
 
 
-input[type=text], input[type=password] {
+
+input[type= CajaEmail]{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -154,7 +162,16 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=password2] {
+input[type=CajaNombre] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=CajaConsulta] {
   width: 100%;
   padding: 50px;
   margin: 5px 0 22px 0;
@@ -163,13 +180,12 @@ input[type=password2] {
   background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
+
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -182,60 +198,60 @@ button {
   font-family:Gill Sans, sans-serif ;
   font-size: 25px;
   display: inline-block;
-  ;
+  right: 30%;
+
+
 }
 
 button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
+.botonCancelar {
   padding: 14px 20px;
   background-color: #f44336;
+  float: center;
+  width: 30%;
 }
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+.botonContactar{
+  float: center;
+  width: 30%;
 }
 
-/* Add padding to container elements */
-.container {
+
+.caja {
   padding: 16px;
 }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+
+.botonConsulta {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
   background-color: #474e5d;
   padding-top: 20px;
 }
 
-/* Modal Content/Box */
-.modal-content {
+.consulta-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto; /
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; /
 }
 
-/* Style the horizontal ruler */
 hr {
   border: 5px solid #f1f1f1;
   margin-bottom: 25px;
 }
- 
-/* The Close Button (x) */
-.close {
+
+
+.cerrar {
   position: absolute;
   right: 35px;
   top: 15px;
@@ -244,22 +260,20 @@ hr {
   color: #f1f1f1;
 }
 
-.close:hover,
-.close:focus {
+.cerrar:hover,
+.cerrar:focus {
   color: #f44336;
   cursor: pointer;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+  .cbotonCancela, .botonContactar {
      width: 100%;
   }
 }

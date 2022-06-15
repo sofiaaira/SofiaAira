@@ -14,9 +14,9 @@
   <div class="topnav">
     <a class="title" href="#titulo"> Ituzaingo Golf Club </a>
     <a class="active" href="#home"> Inicio </a>
-    <a href="#contact"> Contacto </a>
-    <a href="#TituloInscrip"> Inscripcion </a>
-    <a href="#TituloServ"> Servicio </a>
+    <a href="#Contacto"> Contacto </a>
+    <a href="#TituloInscripcion"> Inscripcion </a>
+    <a href="#TituloServicio"> Servicio </a>
   </div>
 
   <div class="slideshow-container">
@@ -91,38 +91,37 @@
   
   </div>
 
-<h2 id="TituloInscrip" class="subtitulos"> Inscripciones </h2>
-<h4 class="Inscripcion"> Si estas interesado en inscribirte al Ituzaingo Golf Club, mandanos tu consulta y te responderemos a la brevedad!</h4>
+<h2 id="TituloInscripcion" class="subtitulos"> Inscripciones </h2>
+<p class="Inscripcion"> Si estas interesado en inscribirte al Ituzaingo Golf Club, mandanos tu consulta y te responderemos a la brevedad!</p>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+<button onclick="document.getElementById('Boton').style.display='block'" style="width:auto;">Sign Up</button>
 
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
+<div id="Boton" class="botonConsulta">
+  <span onclick="document.getElementById('Boton').style.display='none'" class="cerrar" title="Close Modal">&times;</span>
+  <form class="consulta-content" action="/action_page.php">
+    <div class="caja">
+      <h1> Hace tu consulta! </h1>
+
       <hr>
       <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <input type="CajaEmail"  name="email" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw"><b>Nombre y apellido</b></label>
+      <input type="CajaNombre"  name="psw" required>
 
-      <label for="psw-repeat"><b></b></label>
-      <input type="password2" placeholder="Repeat Password" name="psw-repeat" required>
+      <label for="psw-repeat"><b> Consulta </b></label>
+      <input type="CajaConsulta"  name="psw-repeat" required>
       
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
 
       <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn"> Contactar </button>
+        <button type="button" onclick="document.getElementById('Boton').style.display='none'" class="botonCancelar">Cancel</button>
+        <button type="submit" class="botonContactar"> Contactar </button>
       </div>
     </div>
   </form>
 </div>
+
+<h2 id="Contacto" class="subtitulos"> Contactos </h2>
 
 
 
@@ -182,7 +181,7 @@ function showSlides(n) {
 
 
 // Get the modal
-var modal = document.getElementById('id01');
+var modal = document.getElementById('Boton');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
