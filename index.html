@@ -94,7 +94,7 @@
 <h2 id="TituloInscripcion" class="subtitulos"> Inscripciones </h2>
 <p class="Inscripcion"> Si estas interesado en inscribirte al Ituzaingo Golf Club, mandanos tu consulta y te responderemos a la brevedad!</p>
 
-<button onclick="document.getElementById('Boton').style.display='block'" style="width:auto;">Sign Up</button>
+<button onclick="document.getElementById('Boton').style.display='block'" style="width:auto;"> Consulta </button>
 
 <div id="Boton" class="botonConsulta">
   <span onclick="document.getElementById('Boton').style.display='none'" class="cerrar" title="Close Modal">&times;</span>
@@ -121,22 +121,33 @@
   </form>
 </div>
 
-<h2 id="Contacto" class="subtitulos"> Contactos </h2>
-
-
-
-
 
 </body>
 
+<footer>
+
+<h2 id="Contacto" class="subtitulos"> Contactos </h2>
+<a href="https://www.instagram.com/ituzaingogolf/?hl=es-la">
+<img class="icon1" src="instagram.jpg" > </a>
+
+<a href="https://www.facebook.com/IGCOficial/">
+  <img class="icon2" src="facebook.jpg"> </a>
 
 
-<footer> 
-
-<p> hola como estas </p>
-
+<img class="icon3" src="whatsapp.jpg" 
 
 </footer>
+
+
+
+
+
+
+
+
+
+
+
       
 
 <script> 
@@ -180,10 +191,10 @@ function showSlides(n) {
 
 
 
-// Get the modal
+
 var modal = document.getElementById('Boton');
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
