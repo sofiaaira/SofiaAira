@@ -45,6 +45,15 @@
 .Imagenes:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+
+
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
 .container {
   padding: 2px 16px;
 }
@@ -143,153 +152,82 @@ img {vertical-align: middle;}
 
 h4{text-align: center ;}
 
-.Inscripcion{text-align: center; 
+.inscripcion{text-align: center;
+   font-size: 22px;
+  
+  }
+
+h3{margin: 1px 50px;
+  padding: 20px;
+  font-family: Gill Sans, sans-serif;}
+
+input[type=nombre], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   font-family: Gill Sans, sans-serif;
-  font-size: 25px;
-  margin: 3px; 
-  padding: 2px 2px;
 }
 
-
-
-input[type= CajaEmail]{
+input[type=celular], select, textarea {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=CajaNombre] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=CajaConsulta] {
-  width: 100%;
-  padding: 50px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Gill Sans, sans-serif;
 }
 
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-button {
+input[type=botonEnvio] {
   background-color: #04AA6D;
   color: white;
-  padding: 14px 20px;
-  margin: 15px ;
+  padding: 12px 20px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  font-family:Gill Sans, sans-serif ;
-  font-size: 35px;
-  display: inline-block;
-  right: 30%;
-
-
+  font-size: 20px;
+  font-family: Gill Sans, sans-serif;
 }
 
-button:hover {
-  opacity:1;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.botonCancelar {
-  padding: 14px 20px;
-  background-color: #f44336;
-  float: center;
-  width: 30%;
-}
-
-.botonContactar{
-  float: center;
-  width: 30%;
+.cajaConsultas {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 50px;
+  margin: 1px 50px;
+  font-family: Gill Sans, sans-serif;
 }
 
 
-.caja {
-  padding: 16px;
-}
 
 
-.botonConsulta {
-  display: none; 
-  position: fixed;
-  z-index: 1; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: #474e5d;
-  padding-top: 20px;
-}
-
-.consulta-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /
-  border: 1px solid #888;
-  width: 80%; /
-}
-
-hr {
-  border: 5px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-
-.cerrar {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-.cerrar:hover,
-.cerrar:focus {
-  color: #f44336;
-  cursor: pointer;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media screen and (max-width: 300px) {
-  .cbotonCancela, .botonContactar {
-     width: 100%;
-  }
-}
-
+.icon1{width: 6%; float: left; }
+.icon2{width: 6%; float: left;}
+.icon3{width: 6%; float: left;}
 
 .row2::after {
-  
   display: table;
 }
 
 
 
-footer{background-color:#04AA6D; }
+footer{background-color:#04AA6D; 
+  margin-top:50px;
+    width:100%;
+    height:200px;}
 
-.icon1{width: 8%; position: absolute; right: 45%;}
-.icon2{width: 8%; position: absolute; right: 57%;}
-.icon3{width: 8%; position: absolute; right: 33%;}
+
 
 
 

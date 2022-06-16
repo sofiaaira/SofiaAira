@@ -92,49 +92,43 @@
   </div>
 
 <h2 id="TituloInscripcion" class="subtitulos"> Inscripciones </h2>
-<p class="Inscripcion"> Si estas interesado en inscribirte al Ituzaingo Golf Club, mandanos tu consulta y te responderemos a la brevedad!</p>
+<p class="inscripcion"> Si estas interesado en inscribirte al Ituzaingo Golf Club, mandanos tu consulta y te responderemos a la brevedad!</p>
 
-<button onclick="document.getElementById('Boton').style.display='block'" style="width:auto;"> Consulta </button>
+<h3> Formulario de consulta:</h3>
 
-<div id="Boton" class="botonConsulta">
-  <span onclick="document.getElementById('Boton').style.display='none'" class="cerrar" title="Close Modal">&times;</span>
-  <form class="consulta-content" action="/action_page.php">
-    <div class="caja">
-      <h1> Hace tu consulta! </h1>
+<div class="cajaConsultas">
+  <form action="/action_page.php">
+    <label for="fname"> Nombre </label>
+    <input type="nombre" id="fname" name="firstname" placeholder="Tu nombre...">
 
-      <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="CajaEmail"  name="email" required>
+    <label for="lname"> Celular </label>
+    <input type="celular" id="lname" name="lastname" placeholder=" ej. 15 1234 5678">
 
-      <label for="psw"><b>Nombre y apellido</b></label>
-      <input type="CajaNombre"  name="psw" required>
+    <label for="subject"> Consulta </label>
+    <textarea id="subject" name="subject" placeholder=" ¿Cual es tu consulta?" style="height:200px"></textarea>
 
-      <label for="psw-repeat"><b> Consulta </b></label>
-      <input type="CajaConsulta"  name="psw-repeat" required>
-      
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('Boton').style.display='none'" class="botonCancelar">Cancel</button>
-        <button type="submit" class="botonContactar"> Contactar </button>
-      </div>
-    </div>
+    <input type="botonEnvio" value="Enviar">
   </form>
 </div>
-
-
-</body>
-
-<footer>
 
 <h2 id="Contacto" class="subtitulos"> Contactos </h2>
 <a href="https://www.instagram.com/ituzaingogolf/?hl=es-la">
 <img class="icon1" src="instagram.jpg" > </a>
 
 <a href="https://www.facebook.com/IGCOficial/">
-  <img class="icon2" src="facebook.jpg"> </a>
+<img class="icon2" src="facebook.jpg"> </a>
 
 
-<img class="icon3" src="whatsapp.jpg" 
+<img class="icon3" src="whatsapp.jpg"
+</body>
+
+
+
+<footer>
+
+<p> Vicente, V. Gerde 97, Merlo, Provincia de Buenos Aires </p>
+<p> ituzaingogolfclub@gmail.com </p>
+
 
 </footer>
 
@@ -186,20 +180,6 @@ function showSlides(n) {
 
 
 
-
-
-
-
-
-
-var modal = document.getElementById('Boton');
-
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
 </script>
 
