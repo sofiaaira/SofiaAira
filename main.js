@@ -1,26 +1,31 @@
-console.log("soy externo")
-// para acceder a un ID
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
 
-//let parrafo1 = document.getElementById("pConId")
-//console.log(parrafo1)
-
-//para acceder a una clase
-
-//let parrafo2 = document.getElementsByClassName("pConClass")
-//console.log(parrafo2)
-
-// para acceder a una etiqueta
-
-//let parrafo3 = document.getElementsByTagName("p")
-//console.log(parrafo3)
-
-// cambiar texto con un boton
-//function cambiarTitular(){
-//let titular1 = document.getElementById("titular")
-
-//titular1.innerText = "Hola cosa"
-//}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  }
 
  
 

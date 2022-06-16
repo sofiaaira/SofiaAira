@@ -216,9 +216,7 @@ input[type=submit]:hover {
 .icon2{width: 6%; float: left;}
 .icon3{width: 6%; float: left;}
 
-.row2::after {
-  display: table;
-}
+
 
 
 
