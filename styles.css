@@ -47,13 +47,6 @@
 }
 
 
-
-
-body {
-  margin: 0;
-  margin-bottom: 40px;
-}
-
 .container {
   padding: 2px 16px;
 }
@@ -148,7 +141,8 @@ img {vertical-align: middle;}
 .subtitulos{padding: 20px;
   text-align: center;
   font-size: 30px; 
-  font-family: Gill Sans, sans-serif;}
+  font-family: Gill Sans, sans-serif;
+background-color:#379037;}
 
 h4{text-align: center ;}
 
@@ -187,7 +181,7 @@ input[type=celular], select, textarea {
 
 
 input[type=botonEnvio] {
-  background-color: #04AA6D;
+  background-color: #379037;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -198,7 +192,7 @@ input[type=botonEnvio] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #379037;
 }
 
 .cajaConsultas {
@@ -212,18 +206,14 @@ input[type=submit]:hover {
 
 
 
-.icon1{width: 6%; float: left; }
-.icon2{width: 6%; float: left;}
-.icon3{width: 6%; float: left;}
+.icon1{width: 6%; right: 55%; position: absolute; padding-bottom: 15px;   }
+.icon2{width: 6%; right: 47%; position: absolute; padding-bottom: 15px;}
+.icon3{width: 6%; right: 39%; position: absolute; padding-bottom: 15px;}
 
 
 
 
 
-footer{background-color:#04AA6D; 
-  margin-top:50px;
-    width:100%;
-    height:200px;}
 
 
 
