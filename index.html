@@ -16,8 +16,8 @@
     <a class="title" href="#titulo"> Ituzaingo Golf Club </a>
     <a class="active" href="#home"> Inicio </a>
     <a href="#Contacto"> Contacto </a>
-    <a href="#TituloInscripcion"> Inscripcion </a>
     <a href="#TituloServicio"> Servicio </a>
+    <a href="#Torneo"> Torneo </a>
   </div>
 
   <div class="slideshow-container">
@@ -59,15 +59,15 @@
     <div class="Imagenes">
       <img src="j.jpg" alt="Avatar" style="width:100%">
       <div class="container">
-      <h4><b> Cancha de golf</b></h4>
-      <p class="descripcionServicio"> Su trazado es netamente corte inglés, con fairways generosos y greens chicos, zonas de rough, una diversa y gran arboleda y una fauna silvestre entre las que se destacan las garzas y múltiple variedad de pájaros.</p>
+      <h4 class="informacion""><b> Cancha de golf</b></h4>
+      <p class="descripcionServicio"> Su trazado es netamente corte inglés, con fairways generosos y greens chicos, zonas de rough, una diversa y gran arboleda y fauna silvestre entre las que se destacan las garzas y variedad de pájaros.</p>
       </div>
     </div>
 
     <div class="Imagenes">
       <img src="2.jpg" alt="Avatar" style="width:100%">
       <div class="container">
-      <h4><b> Salon de eventos </b></h4>
+      <h4 class="informacion"><b> Salon de eventos </b></h4>
       <p class="descripcionServicio"> Es un elegante club que les ofrece espacios perfectos. Se destaca por la belleza de sus ambientes y por ser perfecto para todo tipo de celebraciones como bautismos, fiestas de 15, casamientos y mucho mas! </p>
       </div>
     </div>
@@ -75,7 +75,7 @@
     <div class="Imagenes">
       <img src="4.jpg" alt="Avatar" style="width:100%">
       <div class="container">
-      <h4><b> Escuelita de menores </b></h4>
+      <h4 class="informacion" ><b> Escuelita de menores </b></h4>
       <p class="descripcionServicio"> Para los niños y niñas ofrecemos la escuelita de golf los dias sabado. De 3 a 8 años los horarios son de 13:30 a 14:30 y de 8 a 15 años el horario es de 15:00 a 16:00. Un plan distinto al are libre! </p>
       </div>
     </div>
@@ -83,7 +83,7 @@
     <div class="Imagenes">
       <img src="3.jpg" alt="Avatar" style="width:100%">
       <div class="container">
-      <h4><b> Restaurante </b></h4>
+      <h4 class="informacion"><b> Restaurante </b></h4>
       <p class="descripcionServicio"> Veni a disfrutar de una rica comida como pastas, carnes, minutas y postres en nuestro salon o terrazas. De martes a viernes ofrecemos el menu ejecutivo a $950. Realizar tu reserva!  </p>
       </div>
     </div>
@@ -98,34 +98,48 @@
 
 <div class="cajaConsultas">
   <form action="/action_page.php">
-    <label for="fname"> Nombre </label>
+    <label class="name"> Nombre </label>
     <input type="nombre" id="fname" name="firstname" placeholder="Tu nombre...">
 
-    <label for="lname"> Celular </label>
+    <label class="cel"> Celular </label>
     <input type="celular" id="lname" name="lastname" placeholder=" ej. 15 1234 5678">
 
-    <label for="subject"> Consulta </label>
+    <label class="consulta"> Consulta </label>
     <textarea id="subject" name="subject" placeholder=" ¿Cual es tu consulta?" style="height:200px"></textarea>
 
-    <input type="botonEnvio" value="Enviar">
+    <input type="button" value="Enviar">
   </form>
 </div>
 
 
+<h2 id="TituloInscripcion" class="subtitulos"> Proximo Torneo </h2>
 
-<h2 id="Contacto" class="subtitulos"> Contactos </h2>
-<a href="https://www.instagram.com/ituzaingogolf/?hl=es-la">
-<img class="icon1" src="instagram.jpg" > </a>
+<div id="clockdiv">
+  <div>
+    <span class="days" id="day"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours" id="hour"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes" id="minute"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds" id="second"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+  
+<p id="demo"></p>
 
-<a href="https://www.facebook.com/IGCOficial/">
-<img class="icon2" src="facebook.jpg"> </a>
 
-<img class="icon3" src="whatsapp.jpg"
-
-<footer>
-
-</footer>  
+ 
 </body>
+
+
 
 
 

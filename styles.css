@@ -62,7 +62,7 @@
   display: table;
 }
 
-  * {box-sizing: border-box}
+* {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; 
   margin:0}
 
@@ -136,15 +136,20 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-.descripcionServicio{ text-align: left;}
+.descripcionServicio{ text-align: left; 
+  font-size: 20px;}
 
 .subtitulos{padding: 20px;
   text-align: center;
   font-size: 30px; 
   font-family: Gill Sans, sans-serif;
-background-color:#379037;}
+  background-color:#379037;}
 
-h4{text-align: center ;}
+
+
+.informacion {text-align: center;
+  font-size: 22px;
+  } 
 
 .inscripcion{text-align: center;
    font-size: 22px;
@@ -154,6 +159,7 @@ h4{text-align: center ;}
 h3{margin: 1px 50px;
   padding: 20px;
   font-family: Gill Sans, sans-serif;}
+
 
 input[type=nombre], select, textarea {
   width: 100%;
@@ -165,7 +171,17 @@ input[type=nombre], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-family: Gill Sans, sans-serif;
+  font-size: 20px;
+  ;
 }
+
+.name{ font-size: 20px;}
+.cel{ font-size: 20px;}
+.consulta{ font-size: 20px;}
+
+
+
+
 
 input[type=celular], select, textarea {
   width: 100%;
@@ -177,10 +193,11 @@ input[type=celular], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-family: Gill Sans, sans-serif;
+  font-size: 20px;
 }
 
 
-input[type=botonEnvio] {
+input[type=button] {
   background-color: #379037;
   color: white;
   padding: 12px 20px;
@@ -189,9 +206,11 @@ input[type=botonEnvio] {
   cursor: pointer;
   font-size: 20px;
   font-family: Gill Sans, sans-serif;
+  font-size: 20px;
+  
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
   background-color: #379037;
 }
 
@@ -204,11 +223,33 @@ input[type=submit]:hover {
 }
 
 
+#clockdiv{
+  font-family: Gill Sans, sans-serif;
+  color: black;
+  
+  text-align: center;
+  font-size: 30px;
+  padding: 3px;
+  ;
+}
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  
+  display: inline-block;
+}
+// clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
 
+smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
 
-.icon1{width: 6%; right: 55%; position: absolute; padding-bottom: 15px;   }
-.icon2{width: 6%; right: 47%; position: absolute; padding-bottom: 15px;}
-.icon3{width: 6%; right: 39%; position: absolute; padding-bottom: 15px;}
 
 
 
