@@ -137,7 +137,8 @@ img {vertical-align: middle;}
 }
 
 .descripcionServicio{ text-align: left; 
-  font-size: 20px;}
+  font-size: 20px;
+  font-family: Gill Sans, sans-serif;}
 
 .subtitulos{padding: 20px;
   text-align: center;
@@ -149,11 +150,11 @@ img {vertical-align: middle;}
 
 .informacion {text-align: center;
   font-size: 22px;
+  font-family: Gill Sans, sans-serif;
   } 
 
 .inscripcion{text-align: center;
    font-size: 22px;
-  
   }
 
 h3{margin: 1px 50px;
@@ -178,9 +179,6 @@ input[type=nombre], select, textarea {
 .name{ font-size: 20px;}
 .cel{ font-size: 20px;}
 .consulta{ font-size: 20px;}
-
-
-
 
 
 input[type=celular], select, textarea {
@@ -222,6 +220,10 @@ input[type=button]:hover {
   font-family: Gill Sans, sans-serif;
 }
 
+.subtituloTorneo{text-align: center;
+  font-size: 22px;
+ }
+
 
 #clockdiv{
   font-family: Gill Sans, sans-serif;
@@ -251,6 +253,12 @@ smalltext{
 }
 
 
+footer{background-color: black;
+padding: 30px;}
+
+.textoFooter{color: white;}
+
+.icono{width: 40px; height: 40px;}
 
 
 
